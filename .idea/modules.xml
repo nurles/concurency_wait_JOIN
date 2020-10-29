@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/concurency_wait.iml" filepath="$PROJECT_DIR$/concurency_wait.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurency_wait(JOIN).iml" filepath="$PROJECT_DIR$/concurency_wait(JOIN).iml" />
     </modules>
   </component>
 </project>

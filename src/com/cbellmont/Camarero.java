@@ -5,13 +5,7 @@ public class Camarero extends Thread {
     @Override
     public void run() {
         try {
-            while (true) {
-                synchronized (Main.list){
-                    Main.list.wait();
-                    prepararComanda();
-                    Main.list.notify();
-                }
-            }
+            prepararComanda();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
